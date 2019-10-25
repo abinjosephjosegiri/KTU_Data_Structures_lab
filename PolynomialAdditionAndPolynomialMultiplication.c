@@ -22,7 +22,7 @@ int main()
 	for (i = 0; i < p; i++)
 	{
 		newptr = (struct node *)malloc(sizeof(struct node));
-		printf("Enter The %d th EXP:", i + 1);
+		printf("Enter The %d th EXPonent:", i + 1);
 		scanf("%d", &exp);
 		newptr->EXP = exp;
 		printf("Enter The %d th COEFF:", i + 1);
