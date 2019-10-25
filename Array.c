@@ -15,7 +15,7 @@ void main()
 		scanf("%d", &c);
 		if (c == 1)
 		{
-			printf("Enter the Number Of Elents:");
+			printf("Enter the Number Of Elements:");
 			scanf("%d", &n);
 			Create(array, n);
 		}
