@@ -15,15 +15,15 @@ void main()
 		scanf("%d", &c);
 		if (c == 1)
 		{
-			printf("Enter the Number Of Elents:");
+			printf("Enter the Number Of Elements:");
 			scanf("%d", &n);
 			Create(array, n);
 		}
 		else if (c == 2)
 		{
-			printf("Enter the Position to be insert:");
+			printf("Enter the Position to be inserted:");
 			scanf("%d", &p);
-			printf("Enter the Elent Need to insert:");
+			printf("Enter the Element Need to be inserted:");
 			scanf("%d", &e);
 			Insert(array, p, e, n);
 			n++;
@@ -32,25 +32,61 @@ void main()
 			Display(array, n);
 		else if (c == 4)
 		{
-			printf("Enter the Position to be Delete:");
+			printf("Enter the Position of the element to be Deleted:");
 			scanf("%d", &p);
 			Delete(array, p, n);
 			n--;
 		}
 		else if (c == 5)
-			break;
+			break;<!DOCTYPE html>
+<html>
+<head>
+<title>CS KMEA</title>
+</head>
+<body>
+
+<h1>Welcome to COMPUTER SCIENCE DEPARTMMENT</h1>
+<p style="background-color:Tomato;">
+KMEA engineering college has 60 seats in computer science department . students are so polite and teachers are so kind.</p>
+
+</body>
+</html>
 		else
-			printf("Invalid choice Tryagane");
+			printf("Invalid choice Try again");
 	}
 }
 void Create(int a[], int n)
 {
 	for (i = 0; i < n; i++)
 	{
-		printf("Enter The Elamet %d:", i + 1);
+		printf("Enter The Element %d:", i + 1);
 		scanf("%d", &a[i]);
 	}
-}
+}<!DOCTYPE html>
+<html><!DOCTYPE html>
+<html>
+<head>
+<title>CS KMEA</title>
+</head>
+<body>
+
+<h1>Welcome to COMPUTER SCIENCE DEPARTMMENT</h1>
+<p style="background-color:Tomato;">
+KMEA engineering college has 60 seats in computer science department . students are so polite and teachers are so kind.</p>
+
+</body>
+</html>
+<head>
+<title>CS KMEA</title>
+</head>
+<body>
+
+<h1>Welcome to COMPUTER SCIENCE DEPARTMMENT</h1>
+<p style="background-color:Tomato;">
+KMEA engineering college has 60 seats in computer science department . students are so polite and teachers are so kind.</p>
+
+</body>
+</html>
 void Insert(int a[], int p, int e, int n)
 {
 	p--;
