@@ -15,7 +15,7 @@ void main()
 		scanf("%d", &c);
 		if (c == 1)
 		{
-			printf("Enter the Number Of Elents:");
+			printf("Enter the Number Of Elements:");
 			scanf("%d", &n);
 			Create(array, n);
 		}
@@ -23,7 +23,7 @@ void main()
 		{
 			printf("Enter the Position to be insert:");
 			scanf("%d", &p);
-			printf("Enter the Elent Need to insert:");
+			printf("Enter the Element Need to insert:");
 			scanf("%d", &e);
 			Insert(array, p, e, n);
 			n++;
@@ -40,14 +40,14 @@ void main()
 		else if (c == 5)
 			break;
 		else
-			printf("Invalid choice Tryagane");
+			printf("Invalid choice Tryagain");
 	}
 }
 void Create(int a[], int n)
 {
 	for (i = 0; i < n; i++)
 	{
-		printf("Enter The Elamet %d:", i + 1);
+		printf("Enter The Elament %d:", i + 1);
 		scanf("%d", &a[i]);
 	}
 }
