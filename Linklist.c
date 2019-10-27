@@ -44,7 +44,7 @@ int main()
 
 	{
 
-		printf("\nSingly Linked List\n");
+		printf("\nSingle Linked List\n");
 
 		printf("\n_________Menu__________ \n");
 
@@ -64,7 +64,7 @@ int main()
 
 			{
 
-				printf("\n1\t:\tInsert to Beging\n2\t:\tInsert to Any Position\n3\t:\tInsert at End\n");
+				printf("\n1\t:\tInsert at the beginnig\n2\t:\tInsert at Any Position\n3\t:\tInsert at End\n");
 
 				printf("\nEnter the Choice 1 to 3:");
 
@@ -102,7 +102,7 @@ int main()
 
 				else
 
-					printf("Invalid Triagane");
+					printf("Invalid Try again");
 
 			}
 
@@ -120,7 +120,7 @@ int main()
 
 			{
 
-				printf("\n1\t:\tDelete to Beging\n2\t:\tDelete to Any Position\n3\t:\tDelete at End\n");
+				printf("\n1\t:\tDelete at beginnig\n2\t:\tDelete at Any Position\n3\t:\tDelete at End\n");
 
 				printf("\nEnter the Choice 1 to 3:");
 
@@ -158,7 +158,7 @@ int main()
 
 				else
 
-					printf("Invalid Tryagane");
+					printf("Invalid Tryagain");
 
 			}
 
@@ -170,7 +170,7 @@ int main()
 
 		else
 
-			printf("Invalid Tryagane");
+			printf("Invalid Tryagain");
 
 	}
 
@@ -244,7 +244,7 @@ void Insert_Any()
 
 	if (ptr1 == NULL)
 
-		printf("\nKey Not avilable in the list");
+		printf("\nKey Not available in the list");
 
 	else
 

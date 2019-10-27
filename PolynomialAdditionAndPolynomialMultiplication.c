@@ -18,7 +18,7 @@ int main()
 	Qptr = Qh;
 	printf("Enter The Number of Terms in P:");
 	scanf("%d", &p);
-	printf("Enter The Poly Nomial P\n");
+	printf("Enter The Polynomial P\n");
 	for (i = 0; i < p; i++)
 	{
 		newptr = (struct node *)malloc(sizeof(struct node));
@@ -44,7 +44,7 @@ int main()
 
 	printf("\nEnter The Number of Terms in Q:");
 	scanf("%d", &q);
-	printf("Enter The Poly Nomial Q\n");
+	printf("Enter The Polynomial Q\n");
 	for (i = 0; i < q; i++)
 	{
 		newptr = (struct node *)malloc(sizeof(struct node));
