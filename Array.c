@@ -11,7 +11,7 @@ void main()
 		printf("\n_________Menu__________ \n");
 		printf("Create\t:\t1\nInsert\t:\t2\nDisplay\t:\t3\nDelete\t:\t4\nExit\t:\t5");
 		printf("\n______________________\n");
-		printf("\nEnter the Choice 1 to 5:");
+		printf("\nEnter the Choice from 1 to 5:");
 		scanf("%d", &c);
 		if (c == 1)
 		{
@@ -21,9 +21,9 @@ void main()
 		}
 		else if (c == 2)
 		{
-			printf("Enter the Position to be insert:");
+			printf("Enter the Position to be inserted:");
 			scanf("%d", &p);
-			printf("Enter the Element Need to insert:");
+			printf("Enter the Element Need to inserted:");
 			scanf("%d", &e);
 			Insert(array, p, e, n);
 			n++;
