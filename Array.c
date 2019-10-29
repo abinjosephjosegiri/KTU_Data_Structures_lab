@@ -40,7 +40,7 @@ void main()
 		else if (c == 5)
 			break;
 		else
-			printf("Invalid choice Tryagain");
+			printf("Invalid choice Try again");
 	}
 }
 void Create(int a[], int n)
