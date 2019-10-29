@@ -22,10 +22,10 @@ int main()
 	for (i = 0; i < p; i++)
 	{
 		newptr = (struct node *)malloc(sizeof(struct node));
-		printf("Enter The %d th EXP:", i + 1);
+		printf("Enter The %d the EXP:", i + 1);
 		scanf("%d", &exp);
 		newptr->EXP = exp;
-		printf("Enter The %d th COEFF:", i + 1);
+		printf("Enter The %d the COEFF:", i + 1);
 		scanf("%d", &coeff);
 		newptr->COEFF = coeff;
 		newptr->link = NULL;
@@ -42,7 +42,7 @@ int main()
 		Pptr = Pptr->link;
 	} while (Pptr != NULL);
 
-	printf("\nEnter The Number of Terms in Q:");
+	printf("\n Enter The Number of Terms in Q:");
 	scanf("%d", &q);
 	printf("Enter The Polynomial Q\n");
 	for (i = 0; i < q; i++)
@@ -124,7 +124,7 @@ int main()
 		Qptr = Qptr->link;
 	}
 	Rptr = Rh->link;
-	printf("\nSum Of Polynomial:");
+	printf("\nSum Of Polynomials:");
 	do
 	{
 		printf("%dX^%d", (Rptr->COEFF), (Rptr->EXP));
