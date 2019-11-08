@@ -33,7 +33,7 @@ int main()
 		Pptr = newptr;
 	}
 	Pptr = Ph->link;
-	printf("\nPolynomial P:");
+	printf("\nThe Entered Polynomials in P:");
 	do
 	{
 		printf("%dX^%d ", (Pptr->COEFF), (Pptr->EXP));
@@ -59,7 +59,7 @@ int main()
 		Qptr = newptr;
 	}
 	Qptr = Qh->link;
-	printf("\nPolynomial Q:");
+	printf("\nThe Entered Polynomials in Q:");
 	do
 	{
 		printf("%dX^%d", (Qptr->COEFF), (Qptr->EXP));
@@ -165,7 +165,7 @@ int main()
 		}
 	}
 	Rptr = Rh->link;
-	printf("\nPolynomial Mul:");
+	printf("\nThe Resultant Polynomial after Multiplication:");
 	do
 	{
 		printf("%dX^%d", (Rptr->COEFF), (Rptr->EXP));
