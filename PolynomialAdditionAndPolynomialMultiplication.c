@@ -18,7 +18,7 @@ int main()
 	Qptr = Qh;
 	printf("Enter The Number of Terms in P:");
 	scanf("%d", &p);
-	printf("Enter The Polynomial P\n");
+	printf("\nInput The Polynomial P\n");
 	for (i = 0; i < p; i++)
 	{
 		newptr = (struct node *)malloc(sizeof(struct node));
@@ -33,7 +33,7 @@ int main()
 		Pptr = newptr;
 	}
 	Pptr = Ph->link;
-	printf("\nPolynomial P:");
+	printf("\nThe Polynomial P:");
 	do
 	{
 		printf("%dX^%d ", (Pptr->COEFF), (Pptr->EXP));
@@ -42,7 +42,7 @@ int main()
 		Pptr = Pptr->link;
 	} while (Pptr != NULL);
 
-	printf("\nEnter The Number of Terms in Q:");
+	printf("\nInput The Number of Terms in Q:");
 	scanf("%d", &q);
 	printf("Enter The Polynomial Q\n");
 	for (i = 0; i < q; i++)
@@ -59,7 +59,7 @@ int main()
 		Qptr = newptr;
 	}
 	Qptr = Qh->link;
-	printf("\nPolynomial Q:");
+	printf("\nThe Polynomial Q:");
 	do
 	{
 		printf("%dX^%d", (Qptr->COEFF), (Qptr->EXP));
@@ -165,7 +165,7 @@ int main()
 		}
 	}
 	Rptr = Rh->link;
-	printf("\nPolynomial Mul:");
+	printf("\nThe Polynomial Multiplication:");
 	do
 	{
 		printf("%dX^%d", (Rptr->COEFF), (Rptr->EXP));
