@@ -1,7 +1,6 @@
 # KTU_Data_Structures_lab 
  CS205 Data structures
- programs for data structure lab
- 
+ programs for data structure lab<br>
 1.Array.c<br>
 2.Linklist.c<br>
 3.PolynomialAdditionAndPolynomialMultiplication.c<br>
