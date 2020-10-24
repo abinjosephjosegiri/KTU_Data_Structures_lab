@@ -1,9 +1,9 @@
 #include <stdio.h>
-void Create(int a[], int);
-void Display(int a[], int);
-void Delete(int a[], int, int);
-void Insert(int a[], int, int, int);
-int array[20], n, i, c, p, e, t;
+void Create(int a[],int);
+void Display(int a[],int);
+void Delete(int a[],int,int);
+void Insert(int a[],int,int,int);
+int array[20],n,i,c,p,e,t;
 void main()
 {
 	while (1)
@@ -11,19 +11,19 @@ void main()
 		printf("\n_________Menu__________ \n");
 		printf("Create\t:\t1\nInsert\t:\t2\nDisplay\t:\t3\nDelete\t:\t4\nExit\t:\t5");
 		printf("\n______________________\n");
-		printf("\nEnter the Choice 1 to 5:");
+		printf("\nEnter The Choice 1 to 5:");
 		scanf("%d", &c);
 		if (c == 1)
 		{
-			printf("Enter the Number Of Elements:");
+			printf("Enter The Number Of Elements:");
 			scanf("%d", &n);
-			Create(array, n);
+			Create(array, n)e
 		}
 		else if (c == 2)
 		{
-			printf("Enter the Position to be insert:");
+			printf("Enter The Position to be insert:");
 			scanf("%d", &p);
-			printf("Enter the Element Need to insert:");
+			printf("Enter The Element Need to insert:");
 			scanf("%d", &e);
 			Insert(array, p, e, n);
 			n++;
@@ -32,7 +32,7 @@ void main()
 			Display(array, n);
 		else if (c == 4)
 		{
-			printf("Enter the Position to be Delete:");
+			printf("Enter The Position to be Delete:");
 			scanf("%d", &p);
 			Delete(array, p, n);
 			n--;
