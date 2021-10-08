@@ -78,3 +78,4 @@ void Delete(int a[], int p, int n)
 	for (i = p; i < n; i++)
 		a[i] = a[i + 1];
 }
+//display, delete, and insert 
